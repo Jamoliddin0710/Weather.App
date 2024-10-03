@@ -1,0 +1,13 @@
+﻿@using Weather.App.Models
+@model IEnumerable<Weather.App.Models.City>
+@{
+    Layout = "_Layout";
+}
+<div class="margin-top-200 margin-left">
+    <div class="flex">
+        @foreach (City city in @Model)
+        {
+            @await Component.InvokeAsync("Weather" , city)
+        }
+    </div>
+</div>

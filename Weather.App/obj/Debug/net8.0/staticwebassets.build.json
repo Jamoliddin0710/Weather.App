@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "C07z8XZ0v4GuhUr41ZiGJYNRRs/ZteTs6LiW6qoA5QU=",
+  "Source": "Weather.App",
+  "BasePath": "_content/Weather.App",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Weather.App\\wwwroot",
+      "Source": "Weather.App",
+      "ContentRoot": "E:\\mvc\\Weather.App\\Weather.App\\wwwroot\\",
+      "BasePath": "_content/Weather.App",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\mvc\\Weather.App\\Weather.App\\wwwroot\\weather.css",
+      "SourceId": "Weather.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\mvc\\Weather.App\\Weather.App\\wwwroot\\",
+      "BasePath": "_content/Weather.App",
+      "RelativePath": "weather.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\weather.css"
+    }
+  ]
+}
